@@ -268,7 +268,7 @@ const updateNestedFormData = (parentKey, key, value) => {
       };
 
       // Send POST request to the onboarding API
-      const response = await fetch('http://104.248.157.253:6800/api/vendors/onboarding', {
+      const response = await fetch('https://onboarding-api.bajgo.com/api/vendors/onboarding', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
